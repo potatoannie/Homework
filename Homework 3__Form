@@ -9,8 +9,11 @@
         <div>
             <input type="email" placeholder="Email" name="email"><br/>
         </div>
+        <div>
         <label>Select your favourite NBA team</label>
+        </div>
         <select>
+        <div>
             <option value="">-- Select a team --</option>
             <optgroup label="Western Conference"></optgroup>
                 <option value="Mavericks">Mavericks</option>
@@ -24,6 +27,7 @@
                 <option value="Heat">Heat</option>
                 <option value="76ers">76ers</option>    
         </select>
+        </div>
         <div>
             <label>Choose the day you would like to assist a match</label>
         </div>
