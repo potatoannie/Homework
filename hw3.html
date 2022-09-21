@@ -1,0 +1,60 @@
+<html>
+    <form action="/buyyourtickes/nba.html">
+        <h2>Buy your NBA tickets!</h2>
+        <label>Full name</label>
+        <div>
+            <input type="text" placeholder="FirstName LastName" name="fullname" ><br/>
+        </div>
+        <label>Email address</label>
+        <div>
+            <input type="email" placeholder="Email" name="email"><br/>
+        </div>
+        <div>
+        <label>Select your favourite NBA team</label>
+        </div>
+        <select>
+        <div>
+            <option value="">-- Select a team --</option>
+            <optgroup label="Western Conference"></optgroup>
+                <option value="Mavericks">Mavericks</option>
+                <option value="Nuggets">Nuggets</option>
+                <option value="Warriors>">Warriors</option>
+                <option value="Grizzlies">Grizzlies</option>
+                <option value="Jazz">Jazz</option>
+            <optgroup label="Eastern Conference"></optgroup>
+                <option value="Hawks">Hawks</option>
+                <option value="Nets">Nets</option>
+                <option value="Heat">Heat</option>
+                <option value="76ers">76ers</option>    
+        </select>
+        </div>
+        <div>
+            <label>Choose the day you would like to assist a match</label>
+        </div>
+        <div>
+            <input type="date" name="date"><br/>
+        </div>
+        <div>
+            <label>Number of tickets</label>
+        </div>
+        <div>
+            <input type="number" name="numberoftickets"><br/>
+        </div>
+        <div>
+            <label>Select your seating plan</label>
+        </div>
+        <fieldset>
+            <label><input type="checkbox" name="frontrow-name" value="front">Front</label><br/>
+            <label><input type="checkbox" name="middlerow-name" value="middle">Middle</label><br/>
+            <label><input type="checkbox" name="back-name" value="back">Back</label><br/>
+        </fieldset>
+        <div><label>Terms and conditions</label></div>
+        <fieldset>
+            <label><input type="radio" name="tnc" value="yes"checked>I agree</label><br/>
+            <label><input type="radio" name="tnc" value="no">I disagree</label><br/>
+        </fieldset>
+        <div>
+            <label></label><button type="submit">Buy my tickets</button>
+        </div>
+    </form>
+</html>
